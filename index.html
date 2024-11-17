@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Preferences</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .preferences {
+            margin: 150px;
+        }
+        button {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customize Your Page</h1>
+    <div class="preferences">
+        <label for="bg-color">Background Color:</label>
+        <input type="color" id="bg-color">
+        <br>
+        <label for="text-color">Text Color:</label>
+        <input type="color" id="text-color">
+        <br>
+        <button id="save">Save Preferences</button>
+        <button id="reset">Reset Preferences</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
